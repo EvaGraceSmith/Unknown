@@ -47,7 +47,7 @@ function displayRating() {
     let rating = prompt('scale of 1-5, how many paws?');
     //for loop
     for(let i = 0; i < rating; i++){
-      output += '<img  class=\"img_small\" src=\'/cat-paw.jpg\'  />';
+      output += '<img  class=\"img_small\" src=\'/cat-paw.jpg\' alt=\"Image of a Cat\'s paw\"  />';
     }
     return document.write(output);
   
