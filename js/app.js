@@ -16,7 +16,7 @@ function getCatName(){
       if(answer !== '3'){
         alert('Try again!');
       } else {
-        alert('You are correct you choose 3!');
+        alert('YES!!');
       }
     }
   }
@@ -36,7 +36,7 @@ else if (time >= 18 && time < 24){
  message = 'Nighty Night! Time to give your kitty some snuggies!';
 }
 else {
- message = 'Hello, I dont know your time, but it\'s always a good time to give your cat some love.';
+ message = 'I dont know your time, but it\'s always a good time to give your cat some love.';
 }
 return document.write(message);
 
