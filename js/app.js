@@ -6,13 +6,13 @@ console.log('Hello from Kittyville');
 function getCatName(){
     let catName = prompt('What is your cat\'s name?');
     console.log('user name data type:', typeof(catName));
-    return document.write(catName);
+    return document.write('Hello ' + catName +'\'s' + ' owner' + '!<br>');
   }
 
   function guessANumber(){
     let answer;
     while(answer !== '3'){
-      answer = prompt('Guess a number between 1-5');
+      answer = prompt('How many cat treats should you give? Enter a number between 1-5');
       if(answer !== '3'){
         alert('Try again!');
       } else {
@@ -38,7 +38,7 @@ else if (time > 18 && time < 24){
 else {
  message = 'Hello, I dont know your time, but it\'s always a good time to give your cat some love.';
 }
-return message;
+return document.write(message);
 
 }
 
@@ -47,15 +47,11 @@ function displayRating() {
     let rating = prompt('scale of 1-5, how many paws?');
     //for loop
     for(let i = 0; i < rating; i++){
-      output += '<img  src=\'images/CRAIG-B.png\'  />';
+      output += '<img  src=\'/cat-paw.jpg\'  />';
     }
     return document.write(output);
-  }
+  
+}
 
-  guessANumber();
-getCatName();
-getUserTime();
-// displayRating();
-
-document.write('Hello ' + catName +'\'s' + ' owner' + '! ' + message);
+guessANumber();
 
