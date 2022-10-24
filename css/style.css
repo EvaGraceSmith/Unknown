@@ -1,0 +1,74 @@
+body {
+    background-color: rgb(187, 211, 226);
+    font-family: Arial, Helvetica, sans-serif
+
+}
+header{
+    background-color: rgb(196, 241, 81);
+    height: 200px;
+}
+h1{
+    margin-left: 100px;
+    margin-right: 200px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 80px;
+    /*margin t,r,b,l*/
+    color: whitesmoke;
+    text-shadow: 1px,1px,1px rgb(24,56,78);
+}
+ul{
+    align-items: center;
+    background-color: rgb(60, 221, 167);
+}
+nav li{
+    display: inline-block;
+    margin-top:  25px;
+    margin-left: 50px;
+    text-align: center;
+}
+nav li a{
+    align-items: center;
+color:rgb(66, 160, 214);
+font-size: 30px;
+text-decoration: none;
+font-weight: bold;
+cursor: pointer;
+}
+nav li a:hover{
+    color: whitesmoke;
+}
+
+main{
+width: 1000px;
+/*center*/
+margin: 0px auto;
+min-height: 700px;
+}
+
+footer{
+text-align: center;
+background-color: rgb(224,206,209);
+}
+#hero {
+    width: 960px;
+    height: 200px;
+    border: 10px solid white ;
+}
+.class test {
+background-color: coral;
+}
+.lowerPics{
+    display: inline-block;
+    max-width: 30%;
+    margin: 15px;
+}
+p {
+    align-items: center;
+    color:rgb(66, 160, 214);
+    font-size: 16px;
+    margin-top:  5px;
+    margin-bottom: 5px;
+
+
+}
